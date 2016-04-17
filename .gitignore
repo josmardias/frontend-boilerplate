@@ -2,7 +2,7 @@
 npm-debug.log*
 
 # Runtime data
-build
+www/js/bundle.js
 
 # Coverage directory used by tools like istanbul
 coverage
