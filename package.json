@@ -1,6 +1,6 @@
 {
   "name": "react-redux-boilerplate",
-  "version": "1.0.0",
+  "private": true,
   "description": "A boilerplate to start with React and Redux",
   "license": "MIT",
   "author": "Josmar Dias",
