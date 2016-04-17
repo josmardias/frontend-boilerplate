@@ -2,29 +2,29 @@
   "name": "react-redux-boilerplate",
   "version": "1.0.0",
   "description": "A boilerplate to start with React and Redux",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "fixpack": "~2.3.1"
-  },
-  "scripts": {
-    "fixpack": "fixpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": "MIT",
+  "author": "Josmar Dias",
+  "homepage": "https://github.com/josmardias/react-redux-boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/josmardias/react-redux-boilerplate/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/josmardias/react-redux-boilerplate.git"
   },
   "keywords": [
+    "boilerplate",
     "react",
     "redux",
-    "boilerplate",
     "starter"
   ],
-  "author": "Josmar Dias",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/josmardias/react-redux-boilerplate/issues"
+  "main": "index.js",
+  "scripts": {
+    "fixpack": "fixpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/josmardias/react-redux-boilerplate#readme"
+  "dependencies": {},
+  "devDependencies": {
+    "fixpack": "~2.3.1"
+  }
 }
