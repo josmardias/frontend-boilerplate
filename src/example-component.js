@@ -1,7 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-const Example = (props) => {
-  return <div>Hello { props.name }</div>
-};
+const Example = (props) => (
+  <div>Hello { props.name }</div>
+)
 
-export default Example;
+Example.propTypes = {
+  name: React.PropTypes.string,
+}
+
+export default Example
