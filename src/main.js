@@ -1,6 +1,6 @@
-const React = require('react');
-const  ReactDOM = require('react-dom');
-const Example = require('./example-component.js');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Example from './example-component.js';
 
 ReactDOM.render(
   <Example name="World" />,

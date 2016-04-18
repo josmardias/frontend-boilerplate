@@ -1,7 +1,7 @@
-const React = require('react');
+import React from 'react';
 
 const Example = (props) => {
   return <div>Hello { props.name }</div>
 };
 
-module.exports = Example;
+export default Example;
