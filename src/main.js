@@ -1,3 +1,8 @@
-example = require('./example-lib.js');
+const React = require('react');
+const  ReactDOM = require('react-dom');
+const Example = require('./example-component.js');
 
-console.log(example);
+ReactDOM.render(
+  <Example name="World" />,
+  document.getElementById('container')
+);
