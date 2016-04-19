@@ -4,5 +4,5 @@ import Example from './example-component.js'
 
 ReactDOM.render(
   <Example name="World" />,
-  document.getElementById('container')
+  document.getElementById('app')
 )
