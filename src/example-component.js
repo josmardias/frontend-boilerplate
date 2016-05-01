@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Example = (props) => (
-  <div>Hello { props.name }</div>
+  <div>Hello {props.name}</div>
 )
 
 Example.propTypes = {
