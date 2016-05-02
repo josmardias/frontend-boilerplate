@@ -20,10 +20,10 @@
   ],
   "main": "index.js",
   "scripts": {
-    "build": "webpack --verbose --colors --display-error-details --config config/webpack.config.js",
     "fixpack": "fixpack",
     "lint": "eslint .",
     "lint:fix": "npm run lint --silent -- --fix",
+    "start": "webpack-dev-server --hot --inline --config config/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -43,6 +43,7 @@
     "eslint-plugin-jsx-a11y": "~1.0.4",
     "eslint-plugin-react": "~5.0.1",
     "fixpack": "~2.3.1",
-    "webpack": "~1.13.0"
+    "webpack": "~1.13.0",
+    "webpack-dev-server": "~1.14.1"
   }
 }
