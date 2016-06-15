@@ -2,6 +2,9 @@
   "extends": "airbnb",
   "parser": "babel-eslint",
   "rules": {
-    "semi": [2, "never"]
+    "complexity": ["warn", 6],
+    "indent": ["warn", 2],
+    "linebreak-style": ["error", "unix"],
+    "semi": ["error", "never"]
   }
 }
