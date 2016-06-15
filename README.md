@@ -6,7 +6,7 @@ _Work in progress_! A boilerplate to start with React and Redux, no SSR.
 - Modern frontend tools
   - [x] Npm as build tool
   - [x] Webpack as build tool and development server
-  - [ ] Use Hot Module Replacement (HMR)
+  - [x] Use Hot Module Replacement (HMR)
   - [x] Eslint with airbnb preset
   - [ ] Google Material as UI
   - [x] Babel to transpile ECMA features to modern browsers
