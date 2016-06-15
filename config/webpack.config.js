@@ -7,11 +7,10 @@ const PATHS = {
 }
 
 module.exports = {
-  entry: {
-    index: [
-      PATHS.index,
-    ],
-  },
+  entry: [
+    'react-hot-loader/patch',
+    PATHS.index,
+  ],
   output: {
     path: PATHS.build,
     publicPath: '/assets/',
