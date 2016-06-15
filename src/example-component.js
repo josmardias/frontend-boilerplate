@@ -1,16 +1,11 @@
 import React from 'react'
 
-class Example extends React.Component {
-
-  render() {
-    const props = this.props
-    return <div>Hello {props.name}!</div>
-  }
-
-}
+const Example = (props) => (
+  <div>Hello {props.place}!</div>
+)
 
 Example.propTypes = {
-  name: React.PropTypes.string,
+  place: React.PropTypes.string,
 }
 
 export default Example
