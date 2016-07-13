@@ -1,16 +1,16 @@
 {
-  "name": "react-redux-boilerplate",
+  "name": "frontend-boilerplate",
   "private": true,
-  "description": "A boilerplate to start with React and Redux",
+  "description": "A boilerplate to quick start frontend projects. Powered by React and Webpack. No SSR by design.",
   "license": "MIT",
   "author": "Josmar Dias",
-  "homepage": "https://github.com/josmardias/react-redux-boilerplate#readme",
+  "homepage": "https://github.com/josmardias/frontend-boilerplate#readme",
   "bugs": {
-    "url": "https://github.com/josmardias/react-redux-boilerplate/issues"
+    "url": "https://github.com/josmardias/frontend-boilerplate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josmardias/react-redux-boilerplate.git"
+    "url": "git+https://github.com/josmardias/frontend-boilerplate.git"
   },
   "keywords": [
     "boilerplate",

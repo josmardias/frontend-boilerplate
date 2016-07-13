@@ -1,5 +1,8 @@
-# react-redux-boilerplate
-_Work in progress_! A boilerplate to start with React and Redux, no SSR.
+# Frontend Boilerplate
+_Work in progress_!
+A boilerplate to quick start frontend projects.  
+Powered by React and Webpack.  
+No SSR by design.
 
 ### Objectives:
 
