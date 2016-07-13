@@ -11,9 +11,12 @@ No SSR by design.
   - [x] Webpack as build tool and development server
   - [x] Use Hot Module Replacement (HMR)
   - [x] Eslint with airbnb preset
-  - [ ] Google Material as UI
   - [x] Babel to transpile ECMA features to modern browsers
   - [x] React as view layer
+  - [ ] Google Material as UI
+    - Don't use ui library directly on project.
+    - Define project specific ui componentes that wraps it instead.
+  - [ ] React Storybook for easy ui components development and showcase
   - [ ] React Router
   - [ ] Redux as state management tool
   - [ ] Redux dev tool for time travel
