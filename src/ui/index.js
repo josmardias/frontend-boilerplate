@@ -1,18 +1,18 @@
 import React from 'react'
+import injectTapEventPlugin from 'react-tap-event-plugin'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import getMuiTheme from 'material-ui/styles/getMuiTheme'
 
-const style = {
-  margin: '40px auto',
-  maxWidth: '650px',
-  lineHeight: '1.6',
-  fontSize: '18px',
-  color: '#444',
-  padding: '0 10px',
-}
+// Needed for onTouchTap
+// http://stackoverflow.com/a/34015469/988941
+injectTapEventPlugin()
+
+const muiTheme = getMuiTheme({})
 
 const UITheme = (props) => (
-  <div style={style}>
+  <MuiThemeProvider muiTheme={muiTheme}>
     {props.children}
-  </div>
+  </MuiThemeProvider>
 )
 
 UITheme.propTypes = {

@@ -13,7 +13,7 @@ No SSR by design.
   - [x] Eslint with airbnb preset
   - [x] Babel to transpile ECMA features to modern browsers
   - [x] React as view layer
-  - [ ] Google Material as UI
+  - [x] Google Material as UI
     - Don't use ui library directly on project.
     - Define project specific ui componentes that wraps it instead.
   - [x] React Storybook for easy ui components development and showcase

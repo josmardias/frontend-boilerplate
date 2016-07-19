@@ -1,7 +1,18 @@
 import React from 'react'
+import Paper from 'material-ui/Paper'
+
+const style = {
+  display: 'flex',
+  height: 100,
+  width: 100,
+  alignItems: 'center',
+  justifyContent: 'center',
+}
 
 const Example = (props) => (
-  <div>Hello {props.place}!</div>
+  <Paper style={style} zDepth={5}>
+    Hello {props.place}!
+  </Paper>
 )
 
 Example.propTypes = {
