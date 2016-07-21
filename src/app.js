@@ -1,8 +1,11 @@
 import React from 'react'
-import Example from './example-component'
+import UITheme from './ui'
+import Example from './ui/example-component'
 
 const App = () => (
-  <Example place="world" />
+  <UITheme>
+    <Example place="world" />
+  </UITheme>
 )
 
 export default App
