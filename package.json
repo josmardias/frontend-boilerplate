@@ -24,6 +24,7 @@
     "lint": "eslint .",
     "lint:fix": "npm run lint --silent -- --fix",
     "start": "webpack-dev-server --hot --inline --config config/webpack.config.js",
+    "storybook": "start-storybook -c config/storybook -p 9001",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -32,6 +33,7 @@
     "react-hot-loader": "~3.0.0-beta.2"
   },
   "devDependencies": {
+    "@kadira/storybook": "~1.38.3",
     "babel-core": "~6.10.4",
     "babel-eslint": "~6.1.2",
     "babel-loader": "~6.2.4",

@@ -16,7 +16,7 @@ No SSR by design.
   - [ ] Google Material as UI
     - Don't use ui library directly on project.
     - Define project specific ui componentes that wraps it instead.
-  - [ ] React Storybook for easy ui components development and showcase
+  - [x] React Storybook for easy ui components development and showcase
   - [ ] React Router
   - [ ] Redux as state management tool
   - [ ] Redux dev tool for time travel
