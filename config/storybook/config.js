@@ -4,7 +4,6 @@ import React from 'react'
 import UITheme from '../../src/ui'
 
 const loadStories = () => {
-  require('../../src/ui/example-component/example-component-story')
 }
 
 addDecorator(story => (
