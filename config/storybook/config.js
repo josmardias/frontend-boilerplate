@@ -5,6 +5,7 @@ import UITheme from '../../src/ui'
 
 const loadStories = () => {
   require('../../src/ui/form/text-field/text-field-story')
+  require('../../src/ui/form/password/password-story')
 }
 
 addDecorator(story => (
