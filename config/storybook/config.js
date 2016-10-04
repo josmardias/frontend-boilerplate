@@ -8,6 +8,7 @@ const loadStories = () => {
   require('../../src/ui/form/email/email-story')
   require('../../src/ui/form/password/password-story')
   require('../../src/ui/form/checkbox/checkbox-story')
+  require('../../src/ui/form/button/button-story')
 }
 
 addDecorator(story => (
