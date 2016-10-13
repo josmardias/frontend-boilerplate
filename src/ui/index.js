@@ -9,7 +9,7 @@ injectTapEventPlugin()
 
 const muiTheme = getMuiTheme({})
 
-const UITheme = (props) => (
+const UITheme = props => (
   <MuiThemeProvider muiTheme={muiTheme}>
     {props.children}
   </MuiThemeProvider>

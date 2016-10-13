@@ -29,16 +29,18 @@ const getField = (name, { type = 'text', label, value }) => {
       key={name}
       style={style}
     >
-      {Field === fieldTypes.checkbox ?
-        <Field
-          key={name}
-          label={label || name}
-          checked={!!value}
-        /> :
-        <Field
-          key={name}
-          label={value}
-        />
+      {
+        Field === fieldTypes.checkbox ?
+          <Field
+            key={name}
+            label={label || name}
+            checked={!!value}
+          />
+        :
+          <Field
+            key={name}
+            label={value}
+          />
       }
     </FormFieldWrapper>
   )
